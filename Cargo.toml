@@ -6,6 +6,7 @@ authors = ["Anschel Schaffer-Cohen"]
 description = "A tool to upload images to Cohost's CDN"
 license = "MIT"
 repository = "https://github.com/anschelsc/chimg"
+readme = "README"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
