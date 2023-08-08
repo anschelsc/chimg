@@ -1,0 +1,13 @@
+[package]
+name = "chimg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eggbug = "0.2.0"
+tokio = {version = "1.29.1", features = ["rt", "macros"]}
+serde = "1.0.180"
+serde_json = "1.0.104"
+anyhow = "1.0.72"
