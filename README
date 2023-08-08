@@ -1,0 +1,10 @@
+Copy the file `.cohost.json.example` to `.cohost.json` and fill in your own
+information. Right now you have to store your password in plaintext, sorry.
+Invoke the tool with `chimg FILE` where `FILE` is the path to the image you
+would like to upload. Make sure `.cohost.json` is in your current working
+directory. The output will be a URL which can be used to embed your image in
+another post.
+
+Once the image is embedded in a published or saved post, it is safe to delete
+the original draft created by chimg. But there's no harm in keeping it around
+beyond cluttering your drafts.
