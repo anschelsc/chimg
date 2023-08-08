@@ -24,7 +24,7 @@ impl PageInfo {
 
 #[tokio::main(flavor = "current_thread")]
 async fn test_chost() -> Result<()> {
-    let info = PageInfo::load(".chost.json")?;
+    let info = PageInfo::load(".cohost.json")?;
     let session = eggbug::Session::login(&info.email, &info.password).await?;
     let mut post = eggbug::Post {
         headline: "Pest Toast".into(),
