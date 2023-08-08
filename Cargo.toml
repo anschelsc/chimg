@@ -1,6 +1,6 @@
 [package]
 name = "chimg"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Anschel Schaffer-Cohen"]
 description = "A tool to upload images to Cohost's CDN"
